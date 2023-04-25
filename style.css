@@ -1,0 +1,148 @@
+/* 
+COLORI:
+    - #4C5FD5
+    - #dadbf1
+    - #000000
+    - #fff 
+*/
+
+* {
+    font-family: Lexend, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.navigazione {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem 1rem 4rem;
+    height: 30%;
+    background-color: #000000;
+    color:#fff;
+}
+
+.nav_text {
+    font-size: 1.5rem;
+}
+
+.btn {
+    height: 44px;
+    border-radius: 6px;
+    font-size: 100%;
+    color: #fff;
+    margin-left: 10px;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+#request {
+    background-color: #191B1D;
+    width: fit-content;
+    border-color: #fff;
+    border-width: 0.5px;
+}
+
+#login {
+    background-color: #4C5FD5;
+    width: fit-content;
+}
+
+body .content {
+    min-height: 100%;
+}
+
+.search {
+    min-height: 40%;
+    background-color: #dadbf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0rem 7rem 0rem;
+}
+
+.search_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seach_text {
+    font-size: 4.5rem;
+}
+
+.search input {
+    border-color: #000000;
+    border-width: 0.5px;
+}
+
+.search_input, textarea {
+    width: 43rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 15px 15px 15px 15px;
+}
+
+.topics {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.topics article {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.5em;
+    width: 36rem;
+}
+
+.topics h5 {
+    font-size: 1em;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.topics label {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex: 1 0 auto;
+    padding: 2rem;
+    height: 15rem;
+}
+
+.footer_content .copyright {
+    align-self: flex-end;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #000000; 
+    color:#fff;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+a:visited {
+    color: #4C5FD5;
+}
