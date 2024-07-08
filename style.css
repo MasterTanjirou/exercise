@@ -7,7 +7,7 @@ COLORI:
 */
 
 * {
-    font-family: Lexend, sans-serif;
+    font-family: 'Carlito', sans-serif;
 }
 
 html, body {
@@ -74,13 +74,13 @@ body .content {
     font-size: 4.5rem;
 }
 
-.search input {
+.search_input {
     border-color: #000000;
     border-width: 0.5px;
 }
 
 .search_input, textarea {
-    width: 43rem;
+    min-width: 43rem;
     border-radius: 4px;
     font-size: 1rem;
     padding: 15px 15px 15px 15px;
@@ -89,7 +89,7 @@ body .content {
 .topics {
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 5rem 0rem 5rem 0rem;
 }
